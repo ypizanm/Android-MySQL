@@ -51,6 +51,13 @@ public class MainActivity extends AppCompatActivity {
         this.finish();
     }
 
+    public void onClickAddSucursal(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),AddSucursalActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
+
     public void onClickMovimientos(View view)
     {
         Intent intent = new Intent(getApplicationContext(),MovimientosActivity.class);

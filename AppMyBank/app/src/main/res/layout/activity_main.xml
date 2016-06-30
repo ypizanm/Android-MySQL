@@ -56,6 +56,16 @@
             android:onClick="onClickAddCliente"
             android:contextClickable="false" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="registrar sucursal"
+            android:id="@+id/main_btn_add_sucursal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onClickAddSucursal"
+            android:contextClickable="false" />
+
 
         <Button
             android:layout_width="match_parent"

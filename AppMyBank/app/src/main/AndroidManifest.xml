@@ -22,7 +22,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".DepositoActivity" />
         <activity android:name=".RetiroActivity" />
-        <activity android:name=".AddClienteActivity"></activity>
+        <activity android:name=".AddClienteActivity" />
+        <activity android:name=".AddSucursalActivity"></activity>
     </application>
 
 </manifest>
